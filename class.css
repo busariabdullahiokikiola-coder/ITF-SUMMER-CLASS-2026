@@ -1,0 +1,65 @@
+p{
+    color:blue;
+    font-size:18px;
+}
+.css{
+    color:red;
+    font-weight:bold;
+}
+.red p{
+    color:brown;
+    font-weight:bold;
+} 
+      
+    #nth{
+        color:green
+    }
+    h1,h2,p {
+        text-align: center;
+    }
+        a{
+            text-decoration:none;
+        }
+        h1{
+text-shadow: 2px 2px red;
+}
+h2{
+    text-shadow: 2px 2px 5px white
+}
+
+div{
+    margin :30px;
+    border: 2px solid green;
+    width:300px;
+    height:200px;
+    padding: 25px 50px 75px;
+    outline:7px solid blue;
+}
+ul{
+    list-style:none;
+}
+li{
+    display:inline;
+    margin:5px;
+    width:20px;
+    height: 4px;
+    border: 1px solid red;
+    background-color: tomato;
+}
+a{ background-color: blue;
+    text-decoration: none;
+    color: red;
+    pading:5px;
+    border: solid red;
+}
+a:link{
+    color:orange
+}
+a:visited{
+    color:green
+    bacground color:beige
+    a:active{
+        color:orange;
+
+
+

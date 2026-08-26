@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 60px 50px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #555555;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.text-area {
+    margin-left: 35px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.35;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2 span {
+    color: #42a5f5;
+}
+
+p {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #555044;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.bottom-text {
+    margin-top: 25px;
+}
+
+.bottom-text small {
+    display: block;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.bottom-text strong {
+    font-size: 27px;
+    color: #111111;
+}
+
+.bottom-text strong span {
+    color: #42a5f5;
+}
+
+/* For smaller screens */
+@media (max-width: 700px) {
+
+    .hero {
+        padding: 40px 25px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .text-area {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+h1{
+    color:blue;
